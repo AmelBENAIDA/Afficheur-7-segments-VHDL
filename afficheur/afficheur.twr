@@ -1,0 +1,80 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml afficheur.twx afficheur.ncd -o afficheur.twr afficheur.pcf
+-ucf nexys3_digelent.ucf
+
+Design file:              afficheur.ncd
+Physical constraint file: afficheur.pcf
+Device,package,speed:     xc6slx16,csg324,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+affich<0>      |segt<0>        |    9.849|
+affich<0>      |segt<1>        |    9.695|
+affich<0>      |segt<2>        |    9.618|
+affich<0>      |segt<3>        |   10.068|
+affich<0>      |segt<4>        |    9.439|
+affich<0>      |segt<5>        |   10.149|
+affich<0>      |segt<6>        |   10.076|
+affich<1>      |segt<0>        |    9.839|
+affich<1>      |segt<1>        |   10.005|
+affich<1>      |segt<2>        |    9.608|
+affich<1>      |segt<3>        |    9.826|
+affich<1>      |segt<4>        |    9.749|
+affich<1>      |segt<5>        |    9.764|
+affich<1>      |segt<6>        |    9.834|
+affich<2>      |segt<0>        |   10.100|
+affich<2>      |segt<1>        |    9.792|
+affich<2>      |segt<2>        |    9.869|
+affich<2>      |segt<3>        |   10.045|
+affich<2>      |segt<4>        |    9.536|
+affich<2>      |segt<5>        |   10.510|
+affich<2>      |segt<6>        |   10.053|
+affich<3>      |segt<0>        |   10.134|
+affich<3>      |segt<1>        |    9.734|
+affich<3>      |segt<2>        |    9.903|
+affich<3>      |segt<3>        |   10.224|
+affich<3>      |segt<4>        |    9.478|
+affich<3>      |segt<5>        |   10.100|
+affich<3>      |segt<6>        |   10.232|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Mar 07 17:24:27 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 218 MB
+
+
+

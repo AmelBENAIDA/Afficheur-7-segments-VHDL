@@ -1,0 +1,35 @@
+
+
+## Switches
+
+Net "affich<0>" LOC = T10;
+
+Net "affich<1>" LOC = T9 ;
+
+Net "affich<2>" LOC = V9 ;
+
+Net "affich<3>" LOC = M8 ;
+
+
+
+Net "AN<0>" LOC = "N16";
+
+Net "AN<1>" LOC = "N15" ;
+
+Net "AN<2>" LOC = "P18" ;
+
+Net "AN<3>" LOC = "P17" ;
+
+
+
+## 7 segments
+
+NET "segt<6>"  LOC = "T17" ;
+NET "segt<5>"  LOC = "T18";
+NET "segt<4>"  LOC = "U17";
+NET "segt<3>"  LOC = "U18";
+NET "segt<2>"  LOC = "M14";
+NET "segt<1>"  LOC = "N14";
+NET "segt<0>"  LOC = "L14";
+
+

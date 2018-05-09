@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\SIAMER-BENAIDA\afficheur\afficheur.ncd
+OUTFILE=C:\SIAMER-BENAIDA\afficheur\afficheur.bit
+FAMILY=Spartan6
+PART=xc6slx16-2csg324
+WORKINGDIR=C:\SIAMER-BENAIDA\afficheur
+LICENSE=WebPack
+USER_INFO=210821714_0_0_756
