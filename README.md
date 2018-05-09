@@ -4,3 +4,5 @@ Il utilise un seule afficheur parmis les 4 offertes sur une carte FPGA.
 Le fichier de contraintes est conforme à celui de la carte Nexys3 Spartan 6.
 Ce programme peut être utilisé comme composant pour afficher les résultats par exemple d'un additionneur , compteurs ou score ... etc.
 Le programme se compose de composants : Un décodeur et un afficheur.
+Le décodeurs traduit les valeurs en entrée (sur 4 bits) en segments.
+Les valeurs en entrées sont spécifiées à l'aide des switches.
